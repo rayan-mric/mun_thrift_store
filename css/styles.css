@@ -71,3 +71,19 @@ body {
 .admin-sidebar a:hover {
     background: #1f2937;
 }
+
+/* Gallery */
+
+.gallery-img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.gallery-img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
